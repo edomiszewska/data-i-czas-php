@@ -30,4 +30,8 @@ echo date('H:i')
 
 
 3. mktime();
+$czas=mktime(16,30,0,10,24,2020);
+echo "data: dzien, miesiac, rok, godzina:minuta <br>";
+echo date("d-m-Y G:i", $czas), "<br>";
+
 
