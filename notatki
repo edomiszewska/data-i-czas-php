@@ -56,4 +56,15 @@ liczenie();
 ?>
 
 
-2. 
+function liczenie($a,$b){
+    
+    
+    echo "suma a i b to ".$a+$b;
+}
+
+liczenie(4,5);
+
+
+2. czy podana liczba jest liczba pierwsza
+
+
