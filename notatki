@@ -1,10 +1,10 @@
 
 DEFINCJE:
 
-time()- biezaca data jako liczba
+- time()- biezaca data jako liczba
 echo time();
 
-getdate(); - data biezaca
+1. getdate(); - data biezaca
 
 $data=getdate();
 $dzien=$data["mday"];
@@ -20,5 +20,14 @@ if ($godz<10) $godz="0".$godz;
 echo "";
 
 
-date(); - GETDATE(); na poczatku i tak musi byc
+2.date(); - GETDATE(); na poczatku i tak musi byc
 echo date("Y-m-d"), "<br>";  - np.
+
+
+echo "AKTUALNA GODZINA TO ";
+echo date('H:i')
+
+
+
+3. mktime();
+
