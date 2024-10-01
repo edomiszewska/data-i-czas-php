@@ -35,3 +35,25 @@ echo "data: dzien, miesiac, rok, godzina:minuta <br>";
 echo date("d-m-Y G:i", $czas), "<br>";
 
 
+
+
+===================================================
+function
+
+
+
+1. SUMUJE 2 LICZBY
+<?php
+
+function liczenie(){
+    $a=4;
+    $b=5;
+    $suma=$a+$b;
+    echo "suma a i b to ".$suma;
+}
+
+liczenie();
+?>
+
+
+2. 
